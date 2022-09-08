@@ -17,6 +17,7 @@ btn.addEventListener("click" ,function(e) {
     p.innerHTML = valor;
     if (valor === "") {
         p.innerHTML = `Digite o nome`;
+        P.style.color = "red" ;
         
     }
     
